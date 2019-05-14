@@ -1,0 +1,11 @@
+{
+  "variant": {
+    "label": "MinSizeRel",
+    "keywordSettings": {
+      "buildType": "minsize"
+    },
+    "description": "Optimize for smallest binary size"
+  },
+  "activeEnvironments": [],
+  "codeModel": null
+}

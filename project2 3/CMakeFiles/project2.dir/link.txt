@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/project2.dir/exception.cc.o CMakeFiles/project2.dir/project2.cc.o  -o project2 

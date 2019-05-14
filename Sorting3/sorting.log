@@ -1,0 +1,1731 @@
+Script started on Mon May 14 16:49:13 2018
+[?1034hbash-3.2$ ./run.sh
+==================================================
+
+./ssort sorting random list with 1000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 5000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 10000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 15000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 20000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 25000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting random list with 30000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.002s
+==================================================
+
+./ssort sorting random list with 100000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.002s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 1000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 5000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 10000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 15000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 20000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 25000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 30000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./ssort sorting sorted list with 100000 items
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./ssort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 1000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 5000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 10000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 15000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 20000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 25000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 30000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting random list with 100000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 1000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 5000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 10000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 15000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 20000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 25000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 30000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./isort sorting sorted list with 100000 items
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./isort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 1000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 5000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 10000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 15000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 20000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 25000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 30000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting random list with 100000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 1000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 5000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 10000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 15000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 20000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 25000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 30000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./bsort sorting sorted list with 100000 items
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./bsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 1000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 5000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 10000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 15000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 20000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 25000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 30000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting random list with 100000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 1000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 5000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 10000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 15000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 20000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 25000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 30000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./qsort sorting sorted list with 100000 items
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./qsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 1000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 5000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 10000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 15000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 20000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 25000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 30000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting random list with 100000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 1000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 5000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 10000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 15000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 20000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 25000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 30000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./msort sorting sorted list with 100000 items
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./msort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 1000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 5000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 10000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 15000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 20000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 25000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 30000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting random list with 100000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 1000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 5000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 10000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 15000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 20000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 25000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 30000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+==================================================
+
+./hsort sorting sorted list with 100000 items
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+./run.sh: line 34: ./hsort: No such file or directory
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.001s
+bash-3.2$ 

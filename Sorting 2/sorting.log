@@ -1,0 +1,15 @@
+Script started on Fri May 11 10:56:09 2018
+[?1034hbash-3.2$ ./run.bash[K[K[K[K[K.sh
+bash: ./run.sh: Operation not permitted
+bash-3.2$ ./run.sh
+bash: ./run.sh: Operation not permitted
+bash-3.2$ xattr -d com.apple.quarantine Applications/mvim [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+bash-3.2$ xattr -d com.apple.quarantine [C[C[C[C[C[C[C[C[C[C./run.sh[K
+bash: ./run.sh: Operation not permitted
+bash-3.2$ ./run.shxattr -d com.apple.quarantine [C[C[C[C[C[C[C[C[C[C./run.sh[K[K[Kbin
+bash: ./run.bin: No such file or directory
+bash-3.2$ ./run.bin[1Pshxattr -d com.apple.quarantine [C[C[C[C[C[C[C[C[C[C./run.sh[K[K[Kbash
+bash: ./run.bash: No such file or directory
+bash-3.2$ .run[K[K[K/run
+bash: ./run: No such file or directory
+bash-3.2$ 

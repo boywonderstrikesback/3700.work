@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mikeross/Desktop/p2/project2/exception.cc
+exceptions.h
+/Users/mikeross/Desktop/p2/project2/exceptions.h
+
+/Users/mikeross/Desktop/p2/project2/exceptions.h
+string
+-
+
+/Users/mikeross/Desktop/p2/project2/project2.cc
+project2.h
+/Users/mikeross/Desktop/p2/project2/project2.h
+
+/Users/mikeross/Desktop/p2/project2/project2.h
+iostream
+-
+simpleStack.h
+/Users/mikeross/Desktop/p2/project2/simpleStack.h
+
+/Users/mikeross/Desktop/p2/project2/simpleStack.h
+exceptions.h
+/Users/mikeross/Desktop/p2/project2/exceptions.h
+

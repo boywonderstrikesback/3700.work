@@ -1,0 +1,9 @@
+Script started on Mon May 14 16:46:54 2018
+[?1034hbash-3.2$ .[Kmake
+bash-3.2$ ./run.sh
+bash: ./run.sh: No such file or directory
+bash-3.2$ ./run.sh
+bash: ./run.sh: No such file or directory
+bash-3.2$ run.sh
+bash: run.sh: command not found
+bash-3.2$ 

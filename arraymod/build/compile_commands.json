@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/mikeross/3700.work/arraymod/build",
+  "command": "/usr/bin/clang++   -I/Users/mikeross/3700.work/arraymod/inc  -g   -std=gnu++14 -o CMakeFiles/arraymod.dir/src/arraymod.cc.o -c /Users/mikeross/3700.work/arraymod/src/arraymod.cc",
+  "file": "/Users/mikeross/3700.work/arraymod/src/arraymod.cc"
+}
+]

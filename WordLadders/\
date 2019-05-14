@@ -1,0 +1,121 @@
+#include <iostream>
+#include <fstream>
+#include <queue>
+#include "../include/word_ladder.h"
+
+WordLadder::WordLadder() {
+    readWords();
+    processHamming();
+    auto pair = checkInput();
+    auto ladder = genLadder(pair.first, pair.second);
+    printLadder(ladder);
+}
+
+void WordLadder::readWords() {
+    std::ifstream inFile;
+    std::string fileName = "sgb-words.txt";
+    inFile.open(fileName);
+
+    if (!inFile) {
+        std::cerr << "Unable to open file " << fileName << "!";
+        exit(1);
+    }
+    std::string line;
+    while (getline(inFile, line)) {
+        Word word = Word(line);
+        words.emplace_back(word);
+    }
+    inFile.close();
+}
+
+std::list<std::string> WordLadder::genLadder(Word *first, Word *second) {
+    std::list<std::string> s;
+    std::queue<Word *> q;
+    q.push(second);
+    Word *w;
+    second->ptr = second;
+
+    while (!q.empty()) {
+        w = q.front();
+        q.pop();
+        for (auto i = 0; i < w->list.size(); i++) {
+            Word *v = w->list.at(i);
+            if (v->ptr == nullptr) {
+                v->ptr = w;
+                q.push(v);
+            }
+        }
+    }
+    second->ptr = nullptr;
+    if (first->ptr != nullptr) {
+        s.push_back(first->val);
+        w = first->ptr;
+
+        while (w != nullptr) {
+            s.push_back(w->val);
+            w = w->ptr;
+        }
+    }
+    return s;
+}
+
+int WordLadder::hammingDistance(std::string x, std::string y) {
+    int dist = 0;
+    for (auto i = 0; i < x.size(); i++) {
+        if (x[i] != y[i]) {
+            dist++;
+        }
+    }
+    return dist;
+}
+
+void WordLadder::processHamming() {
+    for (auto i = 0; i < words.size(); i++) {
+        for (auto j = i + 1; j < words.size(); j++) {
+            auto *w1 = &words.at(i);
+            auto *w2 = &words.at(j);
+
+            if (hammingDistance(w1->val, w2->val) == 1) {
+                w1->list.push_back(w2);
+                w2->list.push_back(w1);
+            }
+        }
+    }
+}
+
+std::pair<Word *, Word *> WordLadder::checkInput() {
+    std::string w1, w2;
+    bool w1Exist = false, w2Exist = false;
+    std::cout << "Input: ";
+    std::cin >> w1 >> w2;
+    std::pair<Word *, Word *> pair;
+    for (Word &word : words) {
+        if (word.val == w1) {
+            pair.first = &word;
+            w1Exist = true;
+        }
+        if (word.val == w2) {
+            pair.second = &word;
+            w2Exist = true;
+        }
+    }
+    if (!w1Exist) {
+        std::cerr << "Error: first word not in list";
+        exit(1);
+    } else if (!w2Exist) {
+        std::cerr << "Error: second word not in list";
+        exit(1);
+    }
+    return pair;
+}
+
+void WordLadder::printLadder(std::list<std::string> ladder) {
+    if (ladder.empty()) {
+        std::cout << "No ladder exists" << std::endl;
+    } else {
+        std::cout << "Ladder:" << std::endl;
+        for (auto &str : ladder) {
+            std::cout << str << std::endl;
+        }
+    }
+}

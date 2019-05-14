@@ -1,0 +1,498 @@
+{
+  "variant": {
+    "label": "RelWithDebInfo",
+    "keywordSettings": {
+      "buildType": "reldeb"
+    },
+    "description": "Perform optimizations AND include debugging information"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+            "name": "Enter",
+            "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+            "targets": [
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlySubmit",
+                      "build/CMakeFiles/NightlySubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlySubmit",
+                "name": "NightlySubmit",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemCheck",
+                      "build/CMakeFiles/NightlyMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemCheck",
+                "name": "NightlyMemCheck",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalConfigure",
+                      "build/CMakeFiles/ExperimentalConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalConfigure",
+                "name": "ExperimentalConfigure",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyCoverage",
+                      "build/CMakeFiles/NightlyCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyCoverage",
+                "name": "NightlyCoverage",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyTest",
+                      "build/CMakeFiles/NightlyTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyTest",
+                "name": "NightlyTest",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousMemCheck",
+                      "build/CMakeFiles/ContinuousMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousMemCheck",
+                "name": "ContinuousMemCheck",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyBuild",
+                      "build/CMakeFiles/NightlyBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyBuild",
+                "name": "NightlyBuild",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyConfigure",
+                      "build/CMakeFiles/NightlyConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyConfigure",
+                "name": "NightlyConfigure",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyUpdate",
+                      "build/CMakeFiles/NightlyUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyUpdate",
+                "name": "NightlyUpdate",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemoryCheck",
+                      "build/CMakeFiles/NightlyMemoryCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemoryCheck",
+                "name": "NightlyMemoryCheck",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousConfigure",
+                      "build/CMakeFiles/ContinuousConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousConfigure",
+                "name": "ContinuousConfigure",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Nightly",
+                      "build/CMakeFiles/Nightly.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Nightly",
+                "name": "Nightly",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyStart",
+                      "build/CMakeFiles/NightlyStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyStart",
+                "name": "NightlyStart",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalMemCheck",
+                      "build/CMakeFiles/ExperimentalMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalMemCheck",
+                "name": "ExperimentalMemCheck",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Continuous",
+                      "build/CMakeFiles/Continuous.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Continuous",
+                "name": "Continuous",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Experimental",
+                      "build/CMakeFiles/Experimental.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Experimental",
+                "name": "Experimental",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "/Users/mikeross/3700.work/Project1/build/libEnter.a"
+                ],
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-O2 -g -DNDEBUG  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "Enter.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libEnter.a",
+                "linkerLanguage": "CXX",
+                "name": "Enter",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousCoverage",
+                      "build/CMakeFiles/ContinuousCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousCoverage",
+                "name": "ContinuousCoverage",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousTest",
+                      "build/CMakeFiles/ContinuousTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousTest",
+                "name": "ContinuousTest",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousBuild",
+                      "build/CMakeFiles/ContinuousBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousBuild",
+                "name": "ContinuousBuild",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousStart",
+                      "build/CMakeFiles/ContinuousStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousStart",
+                "name": "ContinuousStart",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalBuild",
+                      "build/CMakeFiles/ExperimentalBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalBuild",
+                "name": "ExperimentalBuild",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalCoverage",
+                      "build/CMakeFiles/ExperimentalCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalCoverage",
+                "name": "ExperimentalCoverage",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalSubmit",
+                      "build/CMakeFiles/ExperimentalSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalSubmit",
+                "name": "ExperimentalSubmit",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousUpdate",
+                      "build/CMakeFiles/ContinuousUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousUpdate",
+                "name": "ContinuousUpdate",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalUpdate",
+                      "build/CMakeFiles/ExperimentalUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalUpdate",
+                "name": "ExperimentalUpdate",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalStart",
+                      "build/CMakeFiles/ExperimentalStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalStart",
+                "name": "ExperimentalStart",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousSubmit",
+                      "build/CMakeFiles/ContinuousSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousSubmit",
+                "name": "ContinuousSubmit",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/Users/mikeross/3700.work/Project1/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalTest",
+                      "build/CMakeFiles/ExperimentalTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalTest",
+                "name": "ExperimentalTest",
+                "sourceDirectory": "/Users/mikeross/3700.work/Project1",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.7818935048045752",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

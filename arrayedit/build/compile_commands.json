@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/mikeross/3700.work/arrayedit/build",
+  "command": "/usr/bin/clang++   -I/Users/mikeross/3700.work/arrayedit/inc  -g   -std=gnu++14 -o CMakeFiles/arrayedit.dir/src/arrayedit.cc.o -c /Users/mikeross/3700.work/arrayedit/src/arrayedit.cc",
+  "file": "/Users/mikeross/3700.work/arrayedit/src/arrayedit.cc"
+}
+]

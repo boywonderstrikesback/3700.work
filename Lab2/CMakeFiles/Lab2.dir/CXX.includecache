@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mikeross/3700.work/Lab2/src/Fraction.cc
+fraction.h
+/Users/mikeross/3700.work/Lab2/src/fraction.h
+
+/Users/mikeross/3700.work/Lab2/src/lab2.cc
+iostream
+-
+fraction.h
+/Users/mikeross/3700.work/Lab2/src/fraction.h
+
+inc/fraction.h
+iostream
+-
+

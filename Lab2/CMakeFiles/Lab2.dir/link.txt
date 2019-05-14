@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Lab2.dir/src/Fraction.cc.o CMakeFiles/Lab2.dir/src/lab2.cc.o  -o Lab2 

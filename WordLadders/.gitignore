@@ -1,0 +1,13 @@
+*.zip
+*.exe
+*.cbp
+build/
+out/
+.idea*
+.git/
+CMakeFiles/
+CMakeCache.txt
+cmake*
+*~
+*.iml
+*.swp

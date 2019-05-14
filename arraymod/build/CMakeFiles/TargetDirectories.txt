@@ -1,0 +1,3 @@
+/Users/mikeross/3700.work/arraymod/build/CMakeFiles/rebuild_cache.dir
+/Users/mikeross/3700.work/arraymod/build/CMakeFiles/edit_cache.dir
+/Users/mikeross/3700.work/arraymod/build/CMakeFiles/arraymod.dir

@@ -1,0 +1,132 @@
+1. What five things should be placed in a header file?
+(a) Other #include files
+(b) Constants, #defines and macros (c) Data structures and classes
+(d) Global variable definitions
+(e) Function prototypes
+2. Consider SentinelSearch and ForgetfulBinarySearch. Which is better, and why? What limita- tions, if any, are there on these methods?
+ForgetfulBinarySearch is the better algorithm, since its run time is in O (lg n). For ForgetfulBi- narySearch to work, the list must be sorted. For SentinelSearch to work, there must be space available at the end of the list for the key to be placed. For SentinelSearch to work well, you must be able to get to the end of the list quickly — in less than Θ(n) operations.
+3. When should you pass data by reference?
+• If the called function has a need to modify the calling function’s data e.g., cin and its methods
+• If the called function must return more than one value
+• If the data being passed is large
+4. I claimed in class that insert, remove and search operations for hash tables require O(1) time on average, if two conditions are met. What are the two conditions?
+(a) The hash function must evenly distribute the keys throughout the table
+(b) The table cannot become overly full; a threshold is established beyond which no new items can be added.
+ 5. In collision resolution, one of the problems we examined involved all of the keys that hash to one slot colliding with each other. How might you overcome this?
+The issue is that linear and quadratic probes as well as pseudorandom number generators follow a fixed collision path through the table.
+The solution is to take colliding keys and rehash with a second hash function. Ideally, such a function sends keys along different collision paths.
+6. Name three distinct uses for stacks.
+The four key roles are:
+• Data reversal
+• Parsing
+• Postponement of operations • Backtracking and recursion
+7. What is the purpose of big-O notation? What part of a program do we examine to determine a big-O value?
+Big-O values allow us to estimate how much time (work) a program or algorithm requires to process a dataset of a given size. It also allows us to compare two comparable programs or algorithms to see if either requires significantly more time than the other.
+We focus on the loop structures within the program or algorithm to determine the big-O value.Consider ForgetfulBinarySearch and the regular, quit-early version BinarySearch. I claimed in class that ForgetfulBinarySearch was usually faster than the regular version, even though it may keep looking after finding the key. Why is it usually faster?
+ForgetfulBinarySearch only performs one comparison per loop iteration, while BinarySearch per- forms two per iteration. BinarySearch is faster only if it can do at most half as many loop iterations. However, there is a 50% chance that the key is not found until the last possible iteration, a 75% chance of finding it in the last two possible iterations, 87.5% chance of finding it within the last 3 possible iterations, and so on. In general, for a list of n items, the chance of finding the key in half the possible iterations or less is less than 3/􏰀n.
+1. The following snippet of code purports to delete all nodes of a linked list by following the links from node to node and deleting all of the nodes: ptr = head;
+for (int i=0;i<count;i++) {
+delete ptr;
+ptr = ptr -> next;
+ }
+ head = NULL;
+ count=0;
+ Why doesn’t this work? Describe (no code necessary) how to delete the list properly. (Hint: A small change to the snippet fixes the problem.) Answer:
+Once you delete what the pointer points to, you cannot follow it and access what is there.
+The easiest way to fix the problem is to make a copy of the next pointer first, then delete the pointer, then copy the next pointer into ptr.
+2. Consider MergeSort and QuickSort. Normally, QuickSort is faster because MergeSort must copy data to and from a second array. Are there any instances when MergeSort would be faster?
+Answer:
+When the list is already sorted or almost sorted, either in ascending or descending order, QuickSort performs Θ􏰁n2􏰂 comparisons and uses Θ(n) space for the control stack due to recursion. In these cases, MergeSort is faster because it always performs Θ (n lg n) compar- isons.
+3. Why doesn’t binary search work well on linked lists, even if the data is sorted?
+Binary searches rely on constant-time random access for their Θ (lg n) speed; that is, for binary searches to run fast, they must be able to access any element in the list in the same amount of time.
+With a linked list, you must walk to a specific location in the list. The first midpoint requires following n/2 pointers, the second midpoint follows an additional n/4, the next follows n/8,
+Data Structures and Objects Midterm 2 Spring 2018 — CRN 21212
+ and so on. The total number of pointers followed is n − 1, which is as bad as a sequential search in the worst case.
+4. In a queue, why do we need to store the count separately and not just use the distance between head and tail?
+You can use just head and tail indexes for almost all instances. However, if the queue is empty or if it is full, the two indexes are in the same position relative to each other. Thus, by only using the indexes, you cannot distinguish between a full queue or an empty queue.
+5. Consider InsertionSort and MergeSort. Which one is better, on average? How do you know this? Are there any instances where the “better” sort actually performs worse than the other?
+On average, MergeSort is better since it performs Θ (n lg n) comparisons where InsertionSort averages Θ􏰁n2􏰂 comparisons. However, if the data is sorted or almost sorted in ascending order, InsertionSort will only perform Θ(n) comparisons, which is better than MergeSort whose run time is independent of how the data is ordered.
+6. What is a circular array? (It’s the kind of array used to implement a queue, but you can’t use that in your answer.) How is one implemented?
+A circular array is one where the indexes used wrap around when they reach the end of the array. They can be implemented by incrementing the indexes when necessary, using one of these three methods:
+1 // first method
+2 if (++tail == QUEUE_SIZE)
+3 tail = 0;
+5 // second method
+6 tail = ++tail % QUEUE_SIZE;
+8 // third method
+9 tail = ++tail & (QUEUE_SIZE - 1);
+Explain how to implement a queue using a linked list, keeping both enqueue and dequeue Θ(1) operations. Explain any changes you must make to the data structure.
+There are two common methods. One is to add a pointer to the LinearList object that points to the last node in the list. Enqueueing is done by adding to the far end of the list and dequeueing is done by removing the first element.
+The other method is to use a circular, doubly-linked list. Enqueueing is done by adding to the far end, finding the last node by following the back pointer from the first node. Dequeueing is done by removing the first element.
+1. Catbert the Evil Human Resources Director wants to keep a list of employees. Show the basic steps necessary — and the order in which they’re performed! — to add Asok the Intern be- tween Wally and Loud Howard.
+Steps:
+(a) Create a node and place Asok in the node
+(b) Find and point to the predecessor, Wally
+(c) Copy Wally’s pointer to Loud Howard into Asok’s node (d) Point Wally to Asok
+(e) Increment the count
+2. One of these things is not like the other. Show the steps to delete it from the list. If you really need to know which one doesn’t belong, ask.
+Boxcar Willie is the node to be deleted, since he isn’t a classical composer. The steps are:
+(a) Point to Boxcar Willie — this is the special case, so you just copy the head pointer into a temporary pointer
+(b) Copy Boxcar Willie’s pointer into the head pointer
+(c) Delete Boxcar Willie
+(d) Decrement the counter
+#include <iostream>
+#include <queue.h>
+#include <linearlist.h>
+using namespace std;
+void print(char &ch) { cout << ch; }
+int main(void) {
+  string team = "Saskatchewan Squids";
+  Queue<char> q;
+  LinearList<char> list;
+  int i;
+  char c;
+  for (i=0;i<team.length();i++)
+   // capital S below
+   if (team[i] == ’S’ || team[i] == ’t’ || team[i] == ’e’)
+     q.enqueue(team[i]);
+else
+     list.insert(0,team[i]);
+  while (!q.isEmpty()) {
+   c = q.dequeue();
+   cout << c;
+}
+  list.traverse(print);
+  cout << endl << "Done." << endl;
+return 0; }
+Answer:
+The for loop iterates over each character of the string.
+Uppercase S and lowercase t and e are enqueued, so after the loop the queue contains SteS.
+The remaining characters are added to the front of the list — always position 0. In effect, the list acts like a stack, with current contents pushed down each time a new character is added to the list. Thus, at the end of the loop, the list contains sdiuq nawhcaksa.
+The contents of the queue are output first, then the list is output in order. Thus, the output is:
+Stessdiuq nawhcaksa Done.
+Stack s;
+bool bSearch(int data[],int nItems,int key) {
+  int low=0,mid,high=nItems-1;
+  while (low < high) {
+   mid = (low + high) / 2;
+   s.push(mid);
+   if (key > data[mid])
+     low = mid + 1;
+else
+high = mid; }
+  if (key == data[low])
+   return true;
+  else
+   return false;
+}
+int main(void) {
+  int num,data[] = {3,5,10,15,16,19,23,37};
+  if (bSearch(data,8,19))
+   cout << "found" << endl;
+else
+   cout << "not found" << endl;
+  while (!s.isEmpty()) {
+   num = s.pop();
+   cout << num << endl;
+}
+return 0; }
+The fourth time line 6 is executed, the loop condition fails and control goes to line 16. Since low is 5, data[low] is 19, which is the key. Thus, the condition is true and true is returned.
+Returning to line 25, since the returned value is true, found is output at this point. Then, the stack is repeatedly popped until empty, outputting each value popped. Thus, the output is:
+found 4
+5
